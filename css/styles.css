@@ -1,16 +1,16 @@
 /* general */
-body{
+body {
   font-family: 'Alegreya', serif;
   background-color: #E4E0E4;
   color: #270F0D;
   text-align: center;
 }
+
 i {
   font-size: 4vw;
-
 }
 
-a{
+a {
   color: #835441;
 }
 
@@ -18,40 +18,54 @@ span {
   font-style: italic;
 }
 
-ul{
+ul {
   list-style-position: inside;
 }
 
 /* navbar */
-.navbar{
+.navbar {
   position: absolute;
   z-index: 5;
 }
 
-.nav-item{
-
-  background-color: rgba(141,129,126,0.3);
+.navbar-light .navbar-nav .nav-link{
+  color: #835441;
+  text-shadow:
 }
-.nav-item a{
+
+.nav-item:first-child {
+  background-color: rgba(141, 129, 126, 0.4);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.nav-item:last-child {
+  background-color: rgba(141, 129, 126, 0.4);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.nav-item.middle {
+  background-color: rgba(141, 129, 126, 0.4);
+}
+
+.nav-item a {
   color: #835441;
   font-style: bold;
 }
 
 /* header */
-
 .header {
   position: relative;
 }
 
-.header h1{
+.header h1 {
   font-size: 6vw;
 }
 
-.header p{
+.header p {
   font-size: 2vw;
 }
 
-.container-fluid.header{
+.container-fluid.header {
   padding: 0;
 }
 
@@ -66,39 +80,47 @@ ul{
   top: 25%;
   left: 5%;
   text-align: center;
-  width:100%
+  width: 100%
 }
 
 /* Projects */
-.projects{
+.projects {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.proj{
+
+.projects h2 {
+  margin-bottom: 100px;
+  font-style: bold;
+  /* background-color: rgba(66, 50, 37, 0.2);
+  border-radius: 10px; */
+}
+
+.proj {
   margin: 10px;
 }
-.proj-des{
+
+.proj-des {
   text-align: left;
 }
 
-.proj img{
+.proj img {
   width: 500px;
   height: auto;
   padding-bottom: 10px;
 }
 
-.proj i{
+.proj i {
   font-size: 30px;
 }
 
 /* about me */
-.about-me{
+.about-me {
   background-color: #A9795F;
   padding: 100px;
 }
 
 /* background */
-
-.background{
+.background {
   background-color: #8D817E;
 }
