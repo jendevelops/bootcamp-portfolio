@@ -25,6 +25,7 @@ ul{
 /* navbar */
 .navbar{
   position: absolute;
+  z-index: 5;
 }
 
 /* header */
@@ -60,6 +61,13 @@ ul{
 }
 
 /* Projects */
+.projects{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.proj{
+  margin: 10px;
+}
 .proj-des{
   text-align: left;
 }
@@ -67,4 +75,9 @@ ul{
 .proj img{
   width: 500px;
   height: auto;
+  padding-bottom: 10px;
+}
+
+.proj i{
+  font-size: 30px;
 }
