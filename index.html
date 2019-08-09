@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>My Portfolio</title>
   <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -15,51 +16,135 @@
 </head>
 
 <body>
+  <div class="container-fluid text-center">
 
-  <div class="container-fluid header">
-    <!-- name -->
-    <p>Hi, my name is</p>
-    <h1>Jennifer</h1>
-    <p>It's a pleasure to meet you.</p>
+    <div class="container-fluid header">
+      <!-- name -->
+      <p>Hi, my name is</p>
+      <h1>Jennifer</h1>
+      <p>It's a pleasure to meet you.</p>
 
-    <!-- float pic left and have dotted line arrow from paragraph image pointing to the picture -->
-    <img src="img/github_avatar.jpeg" alt="bitmoji of Jennifer">
-    <p>Here's a picture of me (well sort of)</p>
-    <!-- bitmoji image of me  -->
-    <!-- connect with me links -->
-    <p>Connect with me over here!</p>
-    <a href="https://github.com/jbatara"><i class="fab fa-github-square"></i></a>
-    <a href="https://www.linkedin.com/in/jennifer-v-batara/"><i class="fab fa-linkedin"></i></a>
+      <!-- float pic left and have dotted line arrow from paragraph image pointing to the picture -->
+      <img src="img/github_avatar.jpeg" alt="bitmoji of Jennifer">
+      <p>Here's a picture of me (well sort of)</p>
+      <!-- bitmoji image of me  -->
+      <!-- connect with me links -->
+      <p>Connect with me over here!</p>
+      <a href="https://github.com/jbatara"><i class="fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/jennifer-v-batara/"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <!-- list of projects and my github breif description of projects -->
+    <div class="container-fluid projects">
+
+      <!-- Project 1 | Portfolio Site -->
+      <div class="proj">
+        <div class="row">
+          <div class="col-md-6">
+            <a href=""><img src="img/portfolio_site" alt="portfolio site"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="#">
+              <h3>Portfolio Site</h3>
+            </a>
+            <p>Technologies used:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+            </ul>
+            <p>This site you're looking at now!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- project 2 | Mock Resort Site -->
+      <div class="proj">
+        <div class="row">
+          <div class="col-md-6">
+            <a href=""><img src="img/island_resort.jpg" alt="portfolio site"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="#">
+              <h3>Kau'aina Resort</h3>
+            </a>
+            <p>Technologies used:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+            </ul>
+            <p>This site you're looking at now!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- project 3 | Tindog, App Brewery Tutorial-->
+      <div class="proj">
+        <div class="row">
+          <div class="col-md-6">
+            <a href=""><img src="img/tindog.jpg" alt="portfolio site"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="#">
+              <h3>Tindog | App Brewery Tutorial</h3>
+            </a>
+            <p>Technologies used:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+            </ul>
+            <p>This site you're looking at now!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- project 4 | To do list, App Brewery Tutorial-->
+      <div class="proj">
+        <div class="row">
+          <div class="col-md-6">
+            <a href=""><img src="img/portfolio_site" alt="portfolio site"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="#">
+              <h3>To do list | App Brewery Tutorial</h3>
+            </a>
+            <p>Technologies used:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Boostrap</li>
+              <li>Javascript</li>
+            </ul>
+            <p>This site you're looking at now!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- about me -->
+    <div class="container-fluid about-me">
+
+    </div>
+
+    <!-- background (education and job experience) -->
+    <div class="container-fluid background">
+
+    </div>
+
+    <!-- current interests and hobbies -->
+    <div class="container-fluid current-hobbies">
+
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid footer">
+
+    </div>
+
   </div>
-
-  <!-- list of projects and my github
-breif description of projects -->
-  <div class="container-fluid projects">
-
-  </div>
-
-
-  <!-- about me -->
-  <div class="container-fluid about-me">
-
-  </div>
-
-  <!-- background (education and job experience) -->
-  <div class="container-fluid background">
-
-  </div>
-
-  <!-- current interests and hobbies -->
-  <div class="container-fluid current-hobbies">
-
-  </div>
-
-  <!-- footer -->
-  <div class="container-fluid footer">
-
-  </div>
-
-
 
 </body>
 
