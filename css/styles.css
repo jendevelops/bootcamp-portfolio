@@ -22,6 +22,10 @@ ul{
   list-style-position: inside;
 }
 
+/* navbar */
+.navbar{
+  position: absolute;
+}
 
 /* header */
 
@@ -58,4 +62,9 @@ ul{
 /* Projects */
 .proj-des{
   text-align: left;
+}
+
+.proj img{
+  width: 500px;
+  height: auto;
 }

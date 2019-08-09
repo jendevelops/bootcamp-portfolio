@@ -19,9 +19,41 @@
 
 <body>
   <!-- Photo by Plush Design Studio on Unsplash -->
-  <div class="container-fluid header">
+  <div id="header" class="container-fluid header">
+
     <!-- name -->
     <img class="header-background img-responsive w-100" src="img/header.jpg" alt="background image">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-outline-dark bg-transparent">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#background">Background</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Hobbies</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
     <div class="centered">
       <p>Hi, my name is</p>
       <h1>Jennifer</h1>
@@ -44,10 +76,10 @@
     <div class="proj">
       <div class="row">
         <div class="col-md-6">
-          <a href=""><img src="img/portfolio_site" alt="portfolio site"></a>
+          <a href="https://jbatara.github.io/portfolio/"><img src="img/portfolio" alt="portfolio site"></a>
         </div>
         <div class="col-md-6 proj-des">
-          <a href="#">
+          <a href="https://jbatara.github.io/portfolio">
             <h3>Portfolio Site</h3>
           </a>
           <p>Technologies used:</p>
@@ -65,10 +97,10 @@
     <div class="proj">
       <div class="row">
         <div class="col-md-6">
-          <a href=""><img src="img/island_resort.jpg" alt="portfolio site"></a>
+          <a href="https://jbatara.github.io/island-resort/"><img src="img/island-resort.png" alt="island resort site"></a>
         </div>
         <div class="col-md-6 proj-des">
-          <a href="#">
+          <a href="https://jbatara.github.io/island-resort/">
             <h3>Kau'aina Resort</h3>
           </a>
           <p>Technologies used:</p>
@@ -150,13 +182,13 @@
   </div>
 
 
-  <!-- about me -->
-  <!-- float pic left and have dotted line arrow from paragraph image pointing to the picture -->
-  <img src="img/github_avatar.jpeg" alt="bitmoji of Jennifer">
-  <p>Here's a picture of me (well sort of)</p>
-  <!-- bitmoji image of me  -->
-  <div class="container-fluid about-me">
+  <div id="about-me" class="container-fluid about-me">
     <h2>About Me</h2>
+    <!-- about me -->
+    <!-- float pic left and have dotted line arrow from paragraph image pointing to the picture -->
+    <img src="img/github_avatar.jpeg" alt="bitmoji of Jennifer">
+    <p>Here's a picture of me (well sort of)</p>
+    <!-- bitmoji image of me  -->
     <div class="row">
       <!-- portland -->
       <div class="portland col-md-4 align-items-stretch">
