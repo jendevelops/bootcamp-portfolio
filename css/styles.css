@@ -1,23 +1,47 @@
-* {
-  font-family: serif;
+/* general */
+body{
+  font-family: 'Alegreya', serif;
+  background-color: #E4E0E4;
+  color: #270F0D;
+  text-align: center;
 }
 i {
-  font-size: 50px;
+  font-size: 4vw;
 
 }
 
-.container-fluid {
-  padding: 0;
-}
-
-.header {
-  position: relative;
+a{
+  color: #835441;
 }
 
 span {
   font-style: italic;
 }
 
+ul{
+  list-style-position: inside;
+}
+
+
+/* header */
+
+.header {
+  position: relative;
+}
+
+.header h1{
+  font-size: 6vw;
+}
+
+.header p{
+  font-size: 2vw;
+}
+
+.container-fluid.header{
+  padding: 0;
+}
+
+/* background image */
 .header-background {
   padding: 0;
   position: relative;
@@ -25,7 +49,13 @@ span {
 
 .centered {
   position: absolute;
-  top: 35%;
+  top: 25%;
+  left: 5%;
   text-align: center;
   width:100%
+}
+
+/* Projects */
+.proj-des{
+  text-align: left;
 }
