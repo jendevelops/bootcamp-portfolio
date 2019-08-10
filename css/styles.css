@@ -24,7 +24,8 @@ span {
   font-style: italic;
 }
 
-ul {
+
+ul, ol {
   list-style-position: inside;
 }
 
@@ -117,20 +118,24 @@ ul {
 /* about me */
 .about-me {
   background-color: #A9795F;
-  padding: 100px;
+  padding: 100px 50px 100px;
 }
 
 .about-me img{
   float: left;
   border-radius: 50%;
   margin-bottom: 10%;
-  height: 500px;
+  height: 400px;
   padding:0;
 
 }
 
 .about-me h3{
   font-size: 4vw;
+}
+
+.card h4{
+  padding-top:25px;
 }
 
 /* background */
@@ -149,3 +154,9 @@ ul {
 }
 
 /* hobbies */
+.hobbies h3{
+  padding: 50px;
+}
+.hobbies ol{
+  margin:0;
+}
