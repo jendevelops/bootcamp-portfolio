@@ -154,7 +154,10 @@ ul, ol {
 }
 
 /* hobbies */
-.hobbies h3{
+.hobbies{
+  background-color: #A9795F;
+}
+.hobbies p{
   padding: 50px;
 }
 .hobbies ol{
