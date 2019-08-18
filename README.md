@@ -8,16 +8,29 @@
 
 _This is a website created to showcase my work as a web developer. It will be updated from time to time as my skillset grows._
 
+[Link to hosted site.](https://github.com/jbatara/portfolio.git)
+
 ## Setup/Installation Requirements
 
 * Internet
 * Browser
+* Unix Terminal (optional)
 
 _An internet connection is needed for 4 things:_
 * Actually accessing the Website
 * Downloading the Google font
-* Downloading bootstrap
+* Downloading Bootstrap
 * Downloading the Font Awesome font icons
+
+There are two ways to access this website:
+
+Option 1: To view locally please copy the link to [this repo](https://github.com/jbatara/portfolio.git) and type the following command into your unix terminal:
+
+*$git clone repo_url*
+
+with repo_url being the url that was just copied. Open index.html using your internet browser of choice (not compatible with Safari).
+
+Option 2: To view online, please visit the [website](https://jbatara.github.io/portfolio).
 
 
 ## Known Bugs
