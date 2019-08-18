@@ -1,6 +1,6 @@
 # _Portfolio_
 
-#### _Website dedicated to my work, 8/9/2019_
+#### _Website dedicated to my work, 8/17/2019_
 
 #### By _Jennifer Batara_
 
