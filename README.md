@@ -8,7 +8,7 @@
 
 _This is a website created to showcase my work as a web developer. It will be updated from time to time as my skillset grows._
 
-[Link to hosted site.](https://github.com/jbatara/portfolio.git)
+[Link to hosted site.](https://jendevelops.github.io/portfolio)
 
 ## Setup/Installation Requirements
 
