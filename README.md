@@ -39,7 +39,7 @@ _Accessing the site (even after downloading the html and css components) without
 
 ## Support and contact details
 
-_If you have any suggestions, comments, or concerns you can email me at jennifer.batara.dev@gmail.com._
+_If you have any suggestions, comments, or concerns, you can report them in the [issues section of this github repo](https://github.com/jendevelops/portfolio/issues)_
 
 ## Technologies Used
 
