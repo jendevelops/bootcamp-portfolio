@@ -1,4 +1,4 @@
-# _Portfolio_
+# _Bootcamp Portfolio_
 
 #### _Website dedicated to my work, 8/17/2019_
 
@@ -8,7 +8,7 @@
 
 _This is a website created to showcase my work as a web developer. It will be updated from time to time as my skillset grows._
 
-[Link to hosted site.](https://jendevelops.github.io/portfolio)
+[Link to hosted site.](https://jendevelops.github.io/bootcamp-portfolio)
 
 ## Setup/Installation Requirements
 
@@ -24,13 +24,13 @@ _An internet connection is needed for 4 things:_
 
 There are two ways to access this website:
 
-Option 1: To view locally please copy the link to [this repo](https://github.com/jbatara/portfolio.git) and type the following command into your unix terminal:
+Option 1: To view locally please copy the link to [this repo](https://github.com/jbatara/bootcamp-portfolio.git) and type the following command into your unix terminal:
 
 *$git clone repo_url*
 
 with repo_url being the url that was just copied. Open index.html using your internet browser of choice (not compatible with Safari).
 
-Option 2: To view online, please visit the [website](https://jbatara.github.io/portfolio).
+Option 2: To view online, please visit the [website](https://jbatara.github.io/bootcamp-portfolio).
 
 
 ## Known Bugs
@@ -39,7 +39,7 @@ _Accessing the site (even after downloading the html and css components) without
 
 ## Support and contact details
 
-_If you have any suggestions, comments, or concerns, you can report them in the [issues section of this github repo](https://github.com/jendevelops/portfolio/issues)_
+_If you have any suggestions, comments, or concerns, you can report them in the [issues section of this github repo](https://github.com/jendevelops/bootcamp-portfolio/issues)_
 
 ## Technologies Used
 
